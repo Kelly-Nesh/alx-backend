@@ -10,6 +10,7 @@ class BasicCache(BaseCaching):
     """
 
     def __init__(self):
+        """init method. Calls superclass init"""
         super().__init__()
 
     def put(self, key, item):
