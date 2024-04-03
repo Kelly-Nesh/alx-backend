@@ -9,6 +9,10 @@ class BasicCache(BaseCaching):
       - caching system without limit
     """
 
+    def __init__(self):
+        """init method. Calls superclass init"""
+        super().__init__()
+
     def put(self, key, item):
         """Assign to the dictionary self.cache_data
         the item value for the key key."""
